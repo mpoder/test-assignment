@@ -55,12 +55,16 @@ const AgendaRow = (props: agendaRowTypes): JSX.Element => {
             const endWeekAligns = week <= endWeek;
             const startMonthAligns = month >= start.month;
             const endMonthAligns = month <= end.month;
+            const startYearAligns = currentYear >= start.year;
+            const endYearAligns = currentYear <= end.year;
 
             if (
                 startWeekAligns &&
                 startMonthAligns &&
                 endWeekAligns &&
-                endMonthAligns
+                endMonthAligns &&
+                startYearAligns &&
+                endYearAligns
             ) {
                 isActive = true;
             }
