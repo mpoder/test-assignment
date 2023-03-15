@@ -28,6 +28,13 @@ What I would like to change:
 -   Add validation.
 -   Get to know TypeScript much better than I do right now.
 
+### What I learnt with this project
+
+-   Apparently there are ISO standards related to calculating week numbers (ISO 8601). I did not use it, but I found out about it.
+-   SharePoint's local development is pleasantly unproblematic on Linux machines.
+-   I should ask for twice the time when asked to deal with date-related projects: making online shops does not stick to the "business logic" I tried to write here.
+-   Gulp is still being used in projects.
+
 ## Used SharePoint Framework Version
 
 ![version](https://img.shields.io/badge/version-1.16.1-green.svg)
