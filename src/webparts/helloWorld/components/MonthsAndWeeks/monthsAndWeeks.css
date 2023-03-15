@@ -1,0 +1,38 @@
+.monthsAndWeeks-root {
+}
+
+.monthsAndWeeks-months {
+    display: flex;
+    flex-grow: 1;
+}
+
+.monthsAndWeeks-month {
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-left: none;
+}
+
+.monthsAndWeeks-month:first-child {
+    border-left: 1px solid black;
+}
+
+.monthsAndWeeks-weekTitles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.monthsAndWeeks-weekTitle {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.monthsAndWeeks-weekTitle:last-child {
+    border-right: none;
+}
