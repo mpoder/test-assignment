@@ -25,7 +25,7 @@ What I would like to change:
 -   With enough thinking and planning, I would probably be able to figure out why the week counting is as broken as it is.
 -   If I would do this again in SharePoint, I would probably try and use the calendar functions Microsoft provides with Fluent UI.
 -   I would probably like to try out creating a SharePoint package of this and see how that works.
--   Add validation
+-   Add validation.
 -   Get to know TypeScript much better than I do right now.
 
 ## Used SharePoint Framework Version
@@ -49,7 +49,7 @@ What I would like to change:
 
 -   Clone this repository
 -   Ensure that you are at the solution folder
--   Change the initialPage field in config/serve.json to fit a test page that is available to you.
+-   Change the initialPage field in config/serve.json to fit a test page that is available to you
 -   in the command-line run:
     -   **npm install**
     -   **gulp serve**
